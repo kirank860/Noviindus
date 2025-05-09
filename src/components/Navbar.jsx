@@ -23,7 +23,7 @@ export default function Navbar() {
           </div>
           <a href="/" className="font-dm-sans hover:opacity-80 transition-opacity">Careers</a>
           <a href="/" className="font-dm-sans hover:opacity-80 transition-opacity">News & Blog</a>
-          <a href="/" className="font-dm-sans hover:opacity-80 transition-opacity">Payment</a>
+          <a href="/" className="font-dm-sans hover:opacity-80 transition-opacity">Payments</a>
         </div>
 
         {/* Contact Info Desktop */}
