@@ -71,7 +71,12 @@ export default function HeroSection() {
   }, [headingSlides.length]);
 
   return (
-    <div className="relative bg-[#FFF8F1]  py-8 md:py-20 overflow-hidden">
+    <div className="relative bg-[#FFF8F1]  py-8 md:py-20 overflow-hidden"   style={{
+      backgroundImage: 'url("/assets/vector-pattern.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
       <div className=" mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* Left Section - Image with animation */}
