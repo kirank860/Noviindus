@@ -113,7 +113,7 @@ export default function ProgramsForKidsSection() {
                 <div className="bg-[#FFF3E1] rounded-lg p-6 h-full flex flex-col gap-20 relative">
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-[#8A1538]">{program.title}</h3>
-                    <p className=" mt-2 mb-4 w-60 text-[#8A1538] text-sm">{program.description}</p>
+                    <p className=" mt-2 mb-4 md:w-60 w-48 text-[#8A1538] text-sm">{program.description}</p>
 
                     <a
                       href={`/program-${program.id}`}
