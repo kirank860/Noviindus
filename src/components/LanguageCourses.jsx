@@ -32,10 +32,10 @@ export default function LanguageCourses() {
     }
   ];
 
-  // Detect screen size and update `isMobile`
+
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
-    handleResize(); // Run initially
+    handleResize(); 
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
@@ -55,25 +55,25 @@ export default function LanguageCourses() {
   return (
     <div className="w-full px-4 py-8" style={{ backgroundColor: "#F9F7F4" }}>
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
+  
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-normal text-[#655945] font-bricolage ">
             Master in <span className="font-bold">IELTS, TOEFL Exams</span>
           </h2>
         </div>
 
-        {/* View All Button */}
+     
         <div className="flex justify-end md:mb-4 mt-4">
           <Button />
         </div>
 
-        {/* Cards Section */}
+
         <div className="py-11">
-          {/* Mobile View: Single card slider */}
+       
           <div className="block md:hidden">
             <div className="flex justify-center">
               <div className="w-full max-w-sm relative transition-all duration-700 ease-in-out">
-                {/* Background card */}
+             
                 <div
                   className="absolute rounded-2xl w-full h-full"
                   style={{
@@ -119,11 +119,11 @@ export default function LanguageCourses() {
             </div>
           </div>
 
-          {/* Desktop View: Show all cards in grid */}
+   
           <div className="hidden md:flex space-x-6">
             {courses.map((course, index) => (
               <div key={index} className="w-1/4 min-w-[250px] relative">
-                {/* Background card */}
+           
                 <div
                   className="absolute rounded-2xl w-full h-full"
                   style={{

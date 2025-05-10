@@ -33,7 +33,7 @@ export default function TestimonialCarousel() {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const [isMobile, setIsMobile] = useState(false);
 
-  // Detect screen size
+
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();

@@ -46,7 +46,7 @@ export default function StorySection() {
         <img 
           src="/assets/tutor.png" 
           alt="Tutor with student" 
-          className="rounded md:w-4/4 md:h-auto w-[280px]  "  // ↓ Reduced width
+          className="rounded md:w-4/4 md:h-auto w-[280px]  " 
         />
       </div>
       <div className="absolute -right-4 -bottom-40">
@@ -54,7 +54,7 @@ export default function StorySection() {
           <img 
             src="/assets/learning.png" 
             alt="Learning experience" 
-            className="rounded md:w-4/4 md:h-auto  w-[380px] "  // ↓ Smaller secondary image
+            className="rounded md:w-4/4 md:h-auto  w-[380px] "  
           />
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function StorySection() {
           <div className="bg-[#FFF8F1] rounded-3xl  p-6 flex items-start space-x-6 relative">
           <div>
               <h3 className="text-xl font-semibold text-[#8A1538] mb-3">Mission</h3>
-              <p className=" text-[#8A1538] md:w-[300px]">
+              <p className=" text-[#8A1538] md:w-[300px] w-[300px]">
                 To help students succeed with personalized, 
                 <span className="font-medium text-[#8A1538]">one-to-one</span> tutoring that builds 
                 confidence, skills, and a love for learning.
@@ -92,7 +92,7 @@ export default function StorySection() {
           
             <div>
               <h3 className="text-xl font-semibold text-[#8A1538] mb-3">Vision</h3>
-              <p className="text-[#8A1538] md:w-[300px]">
+              <p className="text-[#8A1538] md:w-[300px] w-[300px]">
                 To be a trusted center where students 
                 reach their potential, build confidence, 
                 and prepare for a <span className="font-bold text-[#8A1538]">bright future</span>.

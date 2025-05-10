@@ -247,7 +247,7 @@ export default function HeroSection() {
         <img src={value.icon} alt={value.title} className="w-6 h-6 object-contain" />
         <span className="text-[#8A1538] font-medium">{value.title}</span>
 
-        {/* Divider */}
+    
         {index < coreValues.length - 1 && (
           <div className="hidden md:block mx-6 h-6 w-px bg-[#8A1538]"></div>
         )}
